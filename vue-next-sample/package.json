@@ -1,0 +1,25 @@
+{
+  "name": "vue3",
+  "version": "1.0.0",
+  "description": "Vue.js 3.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --production",
+    "build": "webpack"
+  },
+  "author": "Qiu Huachuan",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.0.0-alpha.10"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-alpha.10",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^4.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "vue-loader": "^16.0.0-alpha.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
