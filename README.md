@@ -22,6 +22,3 @@ npm i vue-loader@next @vue/compiler-sfc --save-dev
 
 代码详见目录 vue-next-sample
 
-### 3. 致谢 B 站 [汪磊同学] 的教学视频
-
-### 4. 此仅作学习交流
