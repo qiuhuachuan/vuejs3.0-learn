@@ -30,7 +30,7 @@ const config = {
       },
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"] // loader是从后往前采用的
+        use: [MiniCssExtractPlugin.loader, "css-loader"] // loader是从后往左采用的
       }
     ]
   },
