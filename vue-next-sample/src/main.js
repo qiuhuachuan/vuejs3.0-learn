@@ -1,7 +1,7 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createApp } from 'vue'
+import App from './App.vue'
 
 // 创建应用对象
-const app = createApp(App);
+const app = createApp(App)
 
-app.mount("#root");
+app.mount('#root')

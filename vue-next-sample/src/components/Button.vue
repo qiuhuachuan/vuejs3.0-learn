@@ -1,23 +1,26 @@
 <template>
   <div>
-    <button @click="onClick">{{ probs.text }}</button>
+    <button @click="onClick">{{ props.text }}</button>
   </div>
 </template>
 
 <script>
 export default {
-  setup(probs, { emit }) {
+  props: {
+    text: String
+  },
+  setup(props, { emit }) {
     const onClick = () => {
-      console.log("inner click");
-      emit("outClick", Date.now());
-    };
+      console.log('inner click')
+      console.log(props)
+      emit('outClick', Date.now())
+    }
     return {
-      probs,
+      props,
       onClick
-    };
+    }
   }
-};
+}
 </script>
 
-<style>
-</style>
+<style></style>
